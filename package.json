@@ -1,0 +1,27 @@
+{
+  "name": "spawn-do-server",
+  "version": "1.0.0",
+  "description": "spawn a digital ocean server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemanticLab/spawn-do-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SemanticLab/spawn-do-server/issues"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "4.13.4",
+    "fold-to-ascii": "^4.0.0",
+    "letsencrypt-express": "1.1.5",
+    "request": "^2.83.0"
+  }
+}
